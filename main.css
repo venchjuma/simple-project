@@ -1,0 +1,141 @@
+
+
+body{
+    background-image: linear-gradient( #ffa949, transparent 90%),
+     url(tre.jpg);
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 150%;
+    background-image: linear-gradient( #ffa949, transparent 90%);
+}
+a:hover{
+    font-size: 30px 
+}
+
+.tre{
+margin-top: 50px;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border: 5px dotted blue;
+transition: all.5s;
+text-align: center;
+}
+.tre:hover{
+    transform: scale(1.2) rotate(360deg)
+}
+
+h2{
+    font-size: small;
+}
+a{
+    text-decoration: none;
+    padding-left: 30px; 
+}
+a:link{
+    color: wheat;
+}
+a:visited{
+    color: white;
+    
+}
+input{
+    background-image: radial-gradient(circle at top right, rgb(0, 195, 255) 20%, dodgerblue 100%);
+}
+textarea{
+    background-image: radial-gradient(circle at top right, rgb(0, 195, 255) 0%, white 50%, wheat 100%);
+}
+
+@media (max-width:960px){
+    p{
+        text-align: center;
+        background-image: linear-gradient( #ff8349, transparent 90%);
+    
+    }
+  
+}
+
+@media (max-width:960px){
+    body{
+        width: 100%;
+       text-align: center;
+        background-image: linear-gradient( #ff8349, transparent 90%);
+    
+    }
+  
+}
+@media(max-width:780px){
+    p{
+        text-align: center;
+        background-image: linear-gradient( #996c58, transparent 90%);
+    
+    }
+}
+
+@media (max-width:780px){
+    body{
+        width: 100%;
+       text-align: center;
+        background-image: linear-gradient( #351d12, transparent 90%);
+    
+    }
+
+@media (max-width:960px) {
+    .image{
+        text-align: center;
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:780px) {
+    .image{
+      width: 90%;
+        text-align: center;
+        margin: 30px auto;
+    }
+    
+}
+  
+}   
+.image:hover{
+    transform: scale(1.2)
+}
+.image{
+    transition: all.8s;
+    border-radius: 3%;
+    transform: rotateY(10deg);
+
+}
+
+
+input[type="text"]{
+    color:white;
+}
+
+legend{
+    color: dodgerblue;
+}
+
+.name{
+    margin: 0;
+}
+nav{
+    margin-top: 5px;
+    display: block;
+    padding; 10px 15px;
+}
+.container1{
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+footer{
+    text-align: center;
+}
+.container3{
+    padding-right: 1em;
+    padding-left: 1em;
+}
